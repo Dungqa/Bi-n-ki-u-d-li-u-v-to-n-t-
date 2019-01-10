@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đổi độ C sang độ F</title>
+</head>
+<body>
+<script>
+    var doC;
+    var doF;
+    var x;
+    x = "Sai cmnr";
+    doC=parseInt(prompt("Nhập giá trị độ C:")) || 'sai'  ;
+    if (doC == 'sai' )
+    {
+        alert('Nhập láo');
+        doC = parseInt(prompt("Nhập giá trị độ C:"));
+        doF= doC / 5 * 9 + 32;
+        alert("Độ F là:"+ " "  +doF);
+    }
+    else
+        {doF= doC / 5 * 9 + 32;
+        alert("Độ F là:"+ " "  +doF);}
+
+</script>
+
+</body>
+</html>
